@@ -130,6 +130,7 @@ container.invokeAll({
 ### error event on container
 
 ### circular reference detection
+Detects circular references and throws an error then
 
-###future plans
+## Future plans
    * add way to obtain dependency graph so it can be drawn in a diagram.
