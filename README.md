@@ -1,5 +1,7 @@
 # container
 
+[![Build Status](https://travis-ci.org/ckaatz-nokia/container.svg?branch=master)](https://travis-ci.org/ckaatz-nokia/container)
+
 Container is a library that allows you to specify  dependencies, and then invoke functions that can use any of those previously specified dependencies. Dependencies are matched through the argument names of the function that is invoked.
 
 __Table of content__
