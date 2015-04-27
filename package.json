@@ -11,6 +11,7 @@
       "email": "<christian.kaatz@here.com>"
     }
   ],
+  "license": "Nokia",
   "description": "Dependency injection container for javascript",
   "repository": "git://github.com/ckaatz-nokia/container.git",
   "main": "./lib/index.js",
