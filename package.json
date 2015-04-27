@@ -1,11 +1,27 @@
 {
-  "name": "container",
+  "name": "@ckaatz/container",
   "version": "0.0.3",
-  "author": "Bruno Windels <bruno.windels@gmail.com>",
+  "contributors": [
+    {
+      "name": "Bruno Windels",
+      "email": "<bruno.windels@gmail.com>"
+    },
+    {
+      "name": "Christian Kaatz",
+      "email": "<christian.kaatz@here.com>"
+    }
+  ],
   "description": "Dependency injection container for javascript",
-  "repository": "git://github.com/bwindels-nokia/container.git",
+  "repository": "git://github.com/ckaatz-nokia/container.git",
   "main": "./lib/index.js",
-  "dependencies" : {
-  	"async"   :  "0.x"
+  "scripts": {
+    "test": "./node_modules/.bin/nodeunit ./test/*"
+  },
+  "dependencies": {
+    "async": "0.9.x",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "nodeunit": "0.9.x"
   }
 }
