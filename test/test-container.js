@@ -1,4 +1,4 @@
-/*jshint node:true strict:false */
+/*jshint node:true */
 
 var testCase = require('nodeunit').testCase;
 var Container = require('../lib/container');
@@ -293,7 +293,7 @@ module.exports = testCase({
         var di = new Container();
         di.add('a', 4);
         di.add('b', 5);
-        
+
         di.invokeAll({
             fn1: function(a, b) {return a + b;},
             fn2: function(a) {return a * a;}
@@ -370,7 +370,7 @@ module.exports = testCase({
         var di = new Container();
         di.add('a', 4);
         di.add('b', 5);
-        
+
         di.bindAll({
             fn1: function(a, b) {return a + b;},
             fn2: function(a) {return a * a;}
