@@ -1,6 +1,7 @@
 {
   "name": "@ckaatz/container",
   "version": "0.1.1",
+  "public": "true",
   "contributors": [
     {
       "name": "Bruno Windels",
