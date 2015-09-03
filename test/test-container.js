@@ -2,7 +2,7 @@
 
 var testCase = require('nodeunit').testCase;
 var Container = require('../lib/container');
-var _ = require('underscore');
+var _ = require('lodash');
 
 module.exports = testCase({
     "adding and getting objects": function(test) {

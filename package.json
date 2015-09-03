@@ -20,8 +20,8 @@
     "test": "./node_modules/.bin/nodeunit ./test/*"
   },
   "dependencies": {
-    "async": "0.9.x",
-    "underscore": "^1.8.3"
+    "async": "1.4.2",
+    "lodash": "3.10.1"
   },
   "devDependencies": {
     "nodeunit": "0.9.x"
