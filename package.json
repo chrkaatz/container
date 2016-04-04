@@ -1,5 +1,5 @@
 {
-  "name": "@ckaatz/container",
+  "name": "cntnr",
   "version": "0.2.0",
   "public": "true",
   "contributors": [
@@ -12,9 +12,9 @@
       "email": "<christian.kaatz@here.com>"
     }
   ],
-  "license": "Nokia",
+  "license": "MIT",
   "description": "Dependency injection container for javascript",
-  "repository": "git://github.com/ckaatz-nokia/container.git",
+  "repository": "git://github.com/ckaatz-here/container.git",
   "main": "./lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/nodeunit ./test/*"
