@@ -13,17 +13,17 @@
     }
   ],
   "license": "MIT",
-  "description": "Dependency injection container for javascript",
+  "description": "Dependency injection container for Javascript",
   "repository": "git://github.com/ckaatz-here/container.git",
   "main": "./lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/nodeunit ./test/*"
   },
   "dependencies": {
-    "async": "^1.5.2",
+    "async": "^2.4.0",
     "lodash": "^4.7.0"
   },
   "devDependencies": {
-    "nodeunit": "0.9.x"
+    "nodeunit": "0.11.x"
   }
 }
